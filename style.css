@@ -87,7 +87,18 @@ a:hover {
 
 /* Adjust the logo in the nav */
 img {
-  height: 40px;
-  margin: 0 10px; /* Add some space around the logo */
+  height: 40px; /* Ensures consistent height */
+  margin-right: 10px; /* Adds space between the logo and the Home link */
+  vertical-align: middle; /* Aligns the logo with the text vertically */
 }
 
+/* Optional: Style the list item containing the logo */
+ul li:first-child {
+  flex: 0; /* Prevents the logo from taking too much space */
+  padding-left: 10px; /* Adds some spacing from the left edge */
+}
+
+/* Adjust alignment for the rest of the nav items */
+ul li {
+  flex: 1; /* Ensures the other items stretch evenly */
+}

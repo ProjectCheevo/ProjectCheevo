@@ -72,13 +72,13 @@ a {
   color: white;
   font-weight: bold;
   line-height: 60px; /* Matches the height of the nav bar */
-  background-color: #424242; /* Default button color */
+  background-color: #f57c00; /* Default button color */
   transition: background-color 0.3s ease;
 }
 
 /* Add hover effect */
 a:hover {
-  background-color: #616161; /* Slightly lighter on hover */
+  background-color: #FEAF56; /* Slightly lighter on hover */
 }
 
 /* Adjust the logo in the nav */

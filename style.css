@@ -26,45 +26,64 @@ h3 {
   color: #555;
 }
 
-/* Style the Header */
+/* Make the nav bar span the top of the page */
 header {
-  background-color: #f39c12; /* Bright orange for contrast */
-  padding: 10px 20px;
+  position: fixed; /* Keeps the nav bar at the top even when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  background-color: #f57c00; /* Nav bar color */
+  z-index: 1000; /* Ensures it stays on top */
 }
 
-/* Style the Navigation Bar */
-nav ul {
-  list-style: none; /* Remove bullet points */
+/* Style the nav bar and remove padding gaps */
+nav {
+  display: flex;
+  align-items: center;
+  height: 60px; /* Adjust height as needed */
   margin: 0;
   padding: 0;
-  display: flex; /* Flexbox for alignment */
-  align-items: center; /* Vertically align items */
 }
 
-/* Style Each List Item */
-nav ul li {
-  margin-right: 20px; /* Add spacing between items */
+/* Style the list */
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-/* Style the Logo */
-nav ul li img {
-  height: 40px; /* Keep the logo a reasonable size */
-  margin-right: 10px; /* Add spacing between logo and links */
+/* Style the nav items */
+li {
+  flex: 1; /* Makes all buttons equal width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-/* Style the Links */
-nav ul li a {
-  text-decoration: none; /* Remove underline */
+/* Links take the full height and width */
+a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
   color: white;
-  background-color: #555; /* Button-like background */
-  padding: 10px 15px; /* Add spacing inside */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  font-size: 14px;
+  font-weight: bold;
+  line-height: 60px; /* Matches the height of the nav bar */
+  background-color: #424242; /* Default button color */
+  transition: background-color 0.3s ease;
 }
 
-/* Hover Effect for Links */
-nav ul li a:hover {
-  background-color: #333; /* Darker hover color */
-  transform: scale(1.1); /* Slightly enlarge */
+/* Add hover effect */
+a:hover {
+  background-color: #616161; /* Slightly lighter on hover */
 }
+
+/* Adjust the logo in the nav */
+img {
+  height: 40px;
+  margin: 0 10px; /* Add some space around the logo */
+}
+

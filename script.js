@@ -1,2 +1,2 @@
-const form = document.querySelection("form");
+const form = document.querySelector("form");
 form.addEventListener("submit", function (event) {console.log("Form submitted");});

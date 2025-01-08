@@ -4,18 +4,18 @@ body {
 }
 
 footer {
-  text-align: center;
-  background-color: #222;
-  color: white;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  background-color: #424242; /* Footer background color */
+  color: white; /* Text color */
+  text-align: center; /* Center align text */
+  padding: 10px 0; /* Vertical padding */
+  margin: 0; /* Remove any default margin */
+  width: 100%; /* Ensure it spans the full width */
+  position: relative; /* Keeps it in the normal flow */
 }
 
 main {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 h1 {
@@ -72,7 +72,7 @@ a {
   color: white;
   font-weight: bold;
   line-height: 60px; /* Matches the height of the nav bar */
-  background-color: #f57c00; /* Default button color */
+  background-color: #f57c00;
   transition: background-color 0.3s ease;
 }
 

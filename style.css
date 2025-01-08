@@ -1,9 +1,9 @@
 body {
-  background-color: #f3f3f3;
+  background-color: #FFF38B;
   font-family: Arial, sans-serif;
 }
 nav ul {
-  list-style: none; /* Remove bullet points */
+  list-style: none; /* No bullet points */
   margin: 0;
   padding: 0;
   display: flex; /* Make items inline */
@@ -19,7 +19,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
 }
 footer {
   text-align: center;

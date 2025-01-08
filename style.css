@@ -1,1 +1,23 @@
+body {
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+nav ul {
+  list-style: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make items inline */
+}
 
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline */
+  color: white;
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}

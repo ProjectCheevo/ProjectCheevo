@@ -1,41 +1,6 @@
-header {
-  background-color: #FA9A2C;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between; /* Space items evenly */
-  align-items: center;
-}
-
 body {
   background-color: #FFF38B;
   font-family: Arial, sans-serif;
-}
-
-nav ul {
-  list-style: none; /* No bullet points */
-  margin: 0;
-  padding: 0;
-  display: flex; /* Make items inline */
-}
-
-nav ul li a {
-  text-decoration: none; /* Remove underline */
-  color: white;
-  background-color: #555; /* Button-like background */
-  padding: 10px 15px; /* Add spacing inside */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
-}
-
-nav ul li a {
-  text-decoration: none; /* Remove underline */
-  color: white;
-}
-
-nav ul li a:hover {
-  background-color: #f39c12; /* Highlighted colour on hover */
-  color: white;
-  transform: scale(1.1); /* Slightly enlarge */
 }
 
 footer {
@@ -59,4 +24,47 @@ h1 {
 
 h3 {
   color: #555;
+}
+
+/* Style the Header */
+header {
+  background-color: #f39c12; /* Bright orange for contrast */
+  padding: 10px 20px;
+}
+
+/* Style the Navigation Bar */
+nav ul {
+  list-style: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Vertically align items */
+}
+
+/* Style Each List Item */
+nav ul li {
+  margin-right: 20px; /* Add spacing between items */
+}
+
+/* Style the Logo */
+nav ul li img {
+  height: 40px; /* Keep the logo a reasonable size */
+  margin-right: 10px; /* Add spacing between logo and links */
+}
+
+/* Style the Links */
+nav ul li a {
+  text-decoration: none; /* Remove underline */
+  color: white;
+  background-color: #555; /* Button-like background */
+  padding: 10px 15px; /* Add spacing inside */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 14px;
+}
+
+/* Hover Effect for Links */
+nav ul li a:hover {
+  background-color: #333; /* Darker hover color */
+  transform: scale(1.1); /* Slightly enlarge */
 }

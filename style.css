@@ -1,7 +1,16 @@
+header {
+  background-color: #FA9A2C;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; /* Space items evenly */
+  align-items: center;
+}
+
 body {
   background-color: #FFF38B;
   font-family: Arial, sans-serif;
 }
+
 nav ul {
   list-style: none; /* No bullet points */
   margin: 0;
@@ -9,8 +18,13 @@ nav ul {
   display: flex; /* Make items inline */
 }
 
-nav ul li {
-  margin-right: 20px;
+nav ul li a {
+  text-decoration: none; /* Remove underline */
+  color: white;
+  background-color: #555; /* Button-like background */
+  padding: 10px 15px; /* Add spacing inside */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
 }
 
 nav ul li a {
@@ -19,8 +33,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  background-color: #f39c12; /* Highlighted colour on hover */
+  color: white;
+  transform: scale(1.1); /* Slightly enlarge */
 }
+
 footer {
   text-align: center;
   background-color: #222;
@@ -30,6 +47,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
 main {
   text-align: center;
   margin-top: 50px;

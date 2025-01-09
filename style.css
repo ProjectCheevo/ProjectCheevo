@@ -140,7 +140,7 @@ a {
   color: #333;
 }
 
-.about_page_content p {
+#about_page_content p {
   font-size: 1.2rem;
   line-height: 1.8;
   margin: 20px auto;

@@ -25,6 +25,15 @@ footer {
   margin: 0;
 }
 
+footer a {
+  background-color: #FFF38B;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin: 0;
+}
+
 h1 {
   color: #333;
 }
@@ -140,18 +149,10 @@ a {
   color: #555;
 }
 
-.about_page footer p {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  margin: 20px auto;
-  max-width: 800px;
-  text-align: center;
-  color: #ffffff;
-}
-
 .about_page strong {
   color: #f57c00; /* Highlighted color */
 }
+
 
 /* Sign In Page Specific Styles ----------------------------------------------------------------------------------------------------------------------------*/
 

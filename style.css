@@ -105,3 +105,28 @@ ul li:first-child {
 ul li {
   flex: 1;
 }
+
+/* About Page Specific Styles */
+.about_page main {
+  text-align: center;
+  margin-top: 70px; /* Adjust for navbar height */
+}
+
+.about_page main h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about_page p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 20px auto;
+  max-width: 800px; /* Center and limit width */
+  text-align: justify;
+  color: #555;
+}
+
+.about_page strong {
+  color: #f57c00; /* Highlighted color */
+}

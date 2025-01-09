@@ -34,7 +34,7 @@ h3 {
 }
 
 
-/* Header */
+/* Header ----------------------------------------------------------------------------------------------------------------------------*/
 header {
   display: flex;
   align-items: center;
@@ -67,7 +67,7 @@ header {
   font-weight: bold;
 }
 
-/* Navigation Bar */
+/* Navigation Bar ----------------------------------------------------------------------------------------------------------------------------*/
 nav ul {
   display: flex;
   list-style-type: none;
@@ -120,7 +120,7 @@ a {
   transition: background-color 0.3s ease;
 }
 
-/* About Page Specific Styles */
+/* About Page Specific Styles ----------------------------------------------------------------------------------------------------------------------------*/
 .about_page main {
   text-align: center;
   margin-top: 70px;
@@ -152,3 +152,7 @@ a {
 .about_page strong {
   color: #f57c00; /* Highlighted color */
 }
+
+/* Sign In Page Specific Styles ----------------------------------------------------------------------------------------------------------------------------*/
+
+.

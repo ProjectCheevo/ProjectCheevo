@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Load the navbar
-  fetch("nav.html")
+  // Load the header
+  fetch("header.html")
     .then((response) => {
       if (!response.ok) {
-        throw new Error("Failed to load navbar: " + response.statusText);
+        throw new Error("Failed to load header: " + response.statusText);
       }
       return response.text();
     })
     .then((data) => {
-      document.getElementById("navbar").innerHTML = data;
+      document.getElementById("header").innerHTML = data;
     })
     .catch((error) => {
       console.error(error);

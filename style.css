@@ -13,12 +13,11 @@ body {
 main {
   flex: 1;
   text-align: center;
-  margin-top: 70px;
 }
 
 footer {
   background-color: #424242;
-  color: white;
+  color: #ffffff;
   text-align: center;
   padding: 10px 0;
   width: 100%;

@@ -49,13 +49,13 @@ nav {
   display: flex;
   align-items: center;
   height: 60px;
-  background-color: #f57c00; /* Nav bar color */
-  padding: 0 20px; /* Add some padding on sides */
+  background-color: #f57c00; 
+  padding: 0 20px;
 }
 
 .logo img {
   height: 40px;
-  margin-right: 20px; /* Add space between logo and buttons */
+  margin-right: 20px;
 }
 
 ul {
@@ -63,8 +63,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-left: auto; /* Pushes the buttons to the right */
-  gap: 20px; /* Space between buttons */
+  margin-left: auto;
+  gap: 20px;
 }
 
 ul li {
@@ -77,12 +77,12 @@ a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding: 10px 15px; /* Button padding */
+  padding: 10px 15px;
   transition: background-color 0.3s ease;
 }
 
 a:hover {
-  background-color: #FEAF56; /* Slightly lighter on hover */
+  background-color: #FEAF56;
 }
 
 

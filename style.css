@@ -123,11 +123,6 @@ a {
   transition: background-color 0.3s ease;
 }
 
-a:hover {
-  background-color: #FEAF56;
-}
-
-
 /* About Page Specific Styles */
 .about_page main {
   text-align: center;

@@ -1,17 +1,17 @@
 body {
   background-color: #FFF38B;
-  font-family: "Kanit", serif; /* Set Kanit as the default font */
-  font-weight: 400; /* Default to regular weight */
-  font-style: normal; /* Default to normal style */
+  font-family: "Kanit", serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: #FFF38B;
   margin: 0;
   display: flex;
-  flex-direction: column; /* Allows header, main, and footer to stack */
-  min-height: 100vh; /* Makes the body take the full height of the viewport */
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
-  flex: 1; /* Pushes the footer to the bottom */
+  flex: 1;
   text-align: center;
   margin-top: 70px;
 }
@@ -33,21 +33,21 @@ h3 {
   color: #555;
 }
 
-/* Make the nav bar span the top of the page */
+
 header {
-  position: fixed; /* Keeps the nav bar at the top even when scrolling */
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%; /* Full width */
-  background-color: #f57c00; /* Nav bar color */
-  z-index: 1000; /* Ensures it stays on top */
+  width: 100%;
+  background-color: #f57c00;
+  z-index: 1000;
 }
 
-/* Style the nav bar and remove padding gaps */
+
 nav {
   display: flex;
   align-items: center;
-  height: 60px; /* Adjust height as needed */
+  height: 60px;
   margin: 0;
   padding: 0;
 }
@@ -61,16 +61,16 @@ ul {
   width: 100%;
 }
 
-/* Style the nav items */
+
 li {
-  flex: 1; /* Makes all buttons equal width */
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-/* Links take the full height and width */
+
 a {
   display: block;
   width: 100%;
@@ -78,30 +78,30 @@ a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  line-height: 60px; /* Matches the height of the nav bar */
+  line-height: 60px;
   background-color: #f57c00;
   transition: background-color 0.3s ease;
 }
 
-/* Add hover effect */
+
 a:hover {
-  background-color: #FEAF56; /* Slightly lighter on hover */
+  background-color: #FEAF56;
 }
 
-/* Adjust the logo in the nav */
+
 img {
-  height: 40px; /* Ensures consistent height */
-  margin-right: 10px; /* Adds space between the logo and the Home link */
-  vertical-align: middle; /* Aligns the logo with the text vertically */
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
-/* Optional: Style the list item containing the logo */
+
 ul li:first-child {
-  flex: 0; /* Prevents the logo from taking too much space */
-  padding-left: 10px; /* Adds some spacing from the left edge */
+  flex: 0;
+  padding-left: 10px;
 }
 
-/* Adjust alignment for the rest of the nav items */
+
 ul li {
-  flex: 1; /* Ensures the other items stretch evenly */
+  flex: 1;
 }

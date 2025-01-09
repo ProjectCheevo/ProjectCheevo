@@ -108,7 +108,7 @@ ul li {
 
 /* About Page Specific Styles */
 .about_page main {
-  text-align: left;
+  text-align: center;
   margin-top: 70px; /* Adjust for navbar height */
 }
 

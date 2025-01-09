@@ -71,7 +71,7 @@ nav ul {
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 5px;
   gap: 20px; /* Spacing between nav items */
 }
 

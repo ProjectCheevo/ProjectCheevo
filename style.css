@@ -81,14 +81,33 @@ nav ul li {
   align-items: center;
 }
 
+/* Navigation Bar Links */
 nav ul li a {
-  text-decoration: none;
+  text-decoration: none; /* Remove default underline */
   color: white;
   font-weight: bold;
   padding: 10px 20px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  white-space: nowrap; /* Prevent text from wrapping */
+  position: relative; /* Required for positioning the underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Add underline effect */
+nav ul li a::after {
+  content: ''; /* Empty content for decoration */
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0; /* Position the underline at the bottom */
+  height: 3px; /* Thickness of the underline */
+  background-color: #feaf56; /* Color of the underline */
+  transform: scaleX(0); /* Initially hidden */
+  transform-origin: left; /* Animate from left to right */
+  transition: transform 0.3s ease; /* Smooth reveal */
+}
+
+/* Show the underline on hover */
+nav ul li a:hover::after {
+  transform: scaleX(1); /* Fully reveal the underline */
 }
 
 nav ul li a:hover {

@@ -71,7 +71,7 @@ header {
 nav ul {
   display: flex;
   list-style-type: none;
-  margin: 0;
+  margin-right: 10px;
   padding: 0;
   gap: 20px;
 }

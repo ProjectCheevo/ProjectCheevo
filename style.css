@@ -1,6 +1,9 @@
 body {
   background-color: #FFF38B;
-  font-family: Arial, sans-serif;
+  font-family: "Kanit", serif; /* Set Kanit as the default font */
+  font-weight: 400; /* Default to regular weight */
+  font-style: normal; /* Default to normal style */
+  background-color: #FFF38B;
   margin: 0;
   display: flex;
   flex-direction: column; /* Allows header, main, and footer to stack */

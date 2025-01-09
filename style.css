@@ -127,6 +127,15 @@ ul li {
   color: #555;
 }
 
+.about_page footer p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 20px auto;
+  max-width: 800px; /* Center and limit width */
+  text-align: justify;
+  color: #ffffff;
+}
+
 .about_page strong {
   color: #f57c00; /* Highlighted color */
 }

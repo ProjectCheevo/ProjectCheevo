@@ -45,17 +45,16 @@ h3 {
 
 /* Header ----------------------------------------------------------------------------------------------------------------------------*/
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #f57c00;
-  padding: 0 20px;
-  height: 70px;
   position: fixed;
+  top: 0; /* Distance from the top of the viewport */
+  z-index: 1000; /* Ensures the header stays above other elements */
+  background-color: #87cefa; /* Retain the header's background */
   width: 100%;
-  z-index: 1000;
-  top: 0;
-  box-sizing: border-box; /* Ensure padding fits inside the width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
 }
 
 /* Logo Section */
